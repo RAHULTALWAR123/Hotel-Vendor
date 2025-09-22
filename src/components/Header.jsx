@@ -3,7 +3,7 @@ import { FiSearch } from "react-icons/fi";
 
 function Header() {
   return (
-    <div className="w-full h-24 bg-red-50 px-8 shadow-md">
+    <div className="w-full h-24 bg-[#f8f5e5] px-8 ">
       <div className="flex justify-between items-center h-full">
         
         {/* Logo */}

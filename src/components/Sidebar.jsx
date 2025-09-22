@@ -8,13 +8,13 @@ function Sidebar() {
     { name: "Dashboard", icon: <MdDashboard size={25} />, path: "/" },
     { name: "Rooms", icon: <MdMeetingRoom size={25} />, path: "/rooms" },
     { name: "Availability & Pricing", icon: <FaTags size={25} />, path: "/availability" },
-    { name: "Booking", icon: <RiBook2Fill size={25} />, path: "/booking" },
+    { name: "Booking", icon: <RiBook2Fill size={25} />, path: "/bookings" },
     { name: "Payouts", icon: <MdPayments size={25} />, path: "/payouts" },
     { name: "Settings", icon: <MdSettings size={25} />, path: "/settings" },
   ];
 
   return (
-    <div className="w-56 h-[calc(100vh-96px)] bg-red-50 p-6 shadow-md">
+    <div className="w-56 h-[calc(100vh-96px)] bg-[#f8f5e5] p-6 ">
       <nav className="flex flex-col gap-4 mt-4">
         {menuItems.map((item, index) => (
           <NavLink
