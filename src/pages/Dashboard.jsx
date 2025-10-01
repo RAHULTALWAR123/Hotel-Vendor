@@ -36,7 +36,7 @@ const Dashboard = () => {
           {/* Header */}
           <div>
             <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#5D4037]">
-              Hello Tushar!
+              Hello Tusharrr!
             </h1>
             <p className="font-bold text-xs sm:text-sm text-gray-700 mt-1">
               July activity{" "}
